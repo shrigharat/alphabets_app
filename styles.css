@@ -71,3 +71,33 @@ body{
     }
 }
 
+@media screen and (max-width: 1000px) {
+    .container{
+        gap: 1rem;
+        padding: 1.5rem;
+    }
+    .alpha-btn{
+        padding: 1rem;
+        font-size: 1.2rem;
+    }
+    .key-container{
+        width: 92%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .container{
+        padding: 1rem;
+    }
+    .alpha-btn{
+        padding: 1rem;
+        font-size: .9rem;
+    }
+    .key-container{
+        width: 98%;
+    }
+    #pressed-display{
+        font-size: 4rem;
+    }
+}
+
